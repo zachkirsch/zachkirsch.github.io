@@ -481,6 +481,8 @@ pre {
 .rss-subscribe {
   margin-top: 50px; }
 
+#abroad-photos ul {
+  list-style-type: none; }
 #abroad-photos div.container {
   margin-left: 1em; }
 #abroad-photos h4 {
@@ -492,7 +494,7 @@ pre {
   max-width: 80%;
   max-height: 80%;
   border: 1px solid lightgray; }
-#abroad-photos article {
+#abroad-photos li {
   margin-bottom: 5em;
   border: 2px solid lightgray;
   padding: 1em; }
