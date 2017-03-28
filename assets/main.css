@@ -490,13 +490,20 @@ pre {
 #abroad-photos p.instructions {
   margin-top: 1em;
   margin-bottom: 2em; }
+@media all and (max-width: 800px) {
+  #abroad-photos p.instructions {
+    display: none; } }
 #abroad-photos img {
   max-width: 80%;
   max-height: 80%;
-  border: 1px solid lightgray; }
+  border: 1px;
+  border-style: solid;
+  border-color: lightgray; }
 #abroad-photos li {
   margin-bottom: 5em;
-  border: 2px solid lightgray;
+  border: 2px;
+  border-style: solid;
+  border-color: lightgray;
   padding: 1em; }
 #abroad-photos p {
   margin-top: 1em; }
