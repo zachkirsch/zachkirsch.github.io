@@ -501,7 +501,7 @@ pre {
   margin-top: 2em; }
 @media all and (max-width: 800px) {
   #abroad-photos p.instructions {
-    display: none; } }
+    display: none !important; } }
 #abroad-photos img {
   max-width: 80%;
   max-height: 80%;
