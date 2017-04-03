@@ -519,6 +519,8 @@ pre {
 #abroad-photos .wait-for-images {
   display: none;
   /* start off hidden unless photos are slow to load */ }
+#abroad-photos #buttons div {
+  display: inline-block; }
 
 .blur-up {
   -webkit-filter: blur(5px);
@@ -543,15 +545,25 @@ a.back-to-top {
   -moz-border-radius: 30px;
   border-radius: 30px; }
 
-.select-style {
+.button-style, button {
   border: 1px solid #ccc;
   width: 120px;
   border-radius: 3px;
-  overflow: hidden;
+  overflow: hidden; }
+
+.select-style {
   background: #fafafa url("/assets/downward-triangle.png") no-repeat 90% 55%;
   background-size: 9%; }
 
-.select-style select {
+button {
+  padding: 5px 8px;
+  border: none;
+  box-shadow: none;
+  background: transparent;
+  background-image: none;
+  -webkit-appearance: none; }
+
+.button-style select {
   padding: 5px 8px;
   width: 130%;
   border: none;
@@ -560,7 +572,7 @@ a.back-to-top {
   background-image: none;
   -webkit-appearance: none; }
 
-.select-style select:focus {
+.button-style select:focus {
   outline: none; }
 
 .nowrap {

@@ -110,11 +110,16 @@
       <p class="instructions wait-for-images">
         <i>You can use the arrow keys to navigate.</i>
       </p>
-      <div class="select-style wait-for-images">
-        <select id="jump-to-month"
-                onchange="window.scrollTo(window.scrollX, this.value)">
-          <option selected disabled>Jump to Month</option>
-        </select>
+      <div id="buttons" class="wait-for-images">
+        <div class="select-style button-style">
+          <select id="jump-to-month"
+                  onchange="window.scrollTo(window.scrollX, this.value)">
+            <option selected disabled>Jump to Month</option>
+          </select>
+        </div>
+        <div class="button-style">
+          <button id="toggle-highlights"></button>
+        </div>
       </div>
       <ul id="photos">
         
@@ -145,14 +150,15 @@
 
               <li data-date="
                 2017-01-14 14:31:30 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-01-14-14-31-30.jpg"
                   alt="
                 On one of my first days in Milan, I got macaroons with my roommates at Enrico Rizzi, a coffeeshop on my street. It&#39;s my favorite place to do work.
               "
                   data-src="/assets/portfolio/img/fulls/2017-01-14-14-31-30.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=45.45975277777777,9.180436111111112"
                        target="_blank"
                        class="geo-link">
@@ -184,12 +190,13 @@
 
               <li data-date="
                 2017-01-14 16:25:02 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images highlight">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-01-14-16-25-02.jpg"
                   alt="On Andrea&#39;s scooter."
                   data-src="/assets/portfolio/img/fulls/2017-01-14-16-25-02.jpg"
-                  class="lazyload blur-up highlight" />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=45.46361944444445,9.18811388888889"
                        target="_blank"
                        class="geo-link">
@@ -219,14 +226,15 @@
 
               <li data-date="
                 2017-01-19 20:03:28 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-01-19-20-03-28.jpg"
                   alt="
                 M.C. Escher exhibit at the Palazzo Reale art museum in Milan.
               "
                   data-src="/assets/portfolio/img/fulls/2017-01-19-20-03-28.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=45.46361944444445,9.18811388888889"
                        target="_blank"
                        class="geo-link">
@@ -258,14 +266,15 @@
 
               <li data-date="
                 2017-01-22 10:30:11 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-01-22-10-30-11.jpg"
                   alt="
                 Bergamo, a city about an hour from Milan.
               "
                   data-src="/assets/portfolio/img/fulls/2017-01-22-10-30-11.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=45.69489166666666,9.669961111111112"
                        target="_blank"
                        class="geo-link">
@@ -295,14 +304,15 @@
 
               <li data-date="
                 2017-01-22 10:31:04 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-01-22-10-31-04.jpg"
                   alt="
                 Bergamo.
               "
                   data-src="/assets/portfolio/img/fulls/2017-01-22-10-31-04.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=45.69489166666666,9.669961111111112"
                        target="_blank"
                        class="geo-link">
@@ -334,12 +344,13 @@
 
               <li data-date="
                 2017-01-22 10:36:06 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images highlight">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-01-22-10-36-06.jpg"
                   alt="Bergamo."
                   data-src="/assets/portfolio/img/fulls/2017-01-22-10-36-06.jpg"
-                  class="lazyload blur-up highlight" />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=45.69489166666666,9.669961111111112"
                        target="_blank"
                        class="geo-link">
@@ -369,14 +380,15 @@
 
               <li data-date="
                 2017-01-22 12:13:28 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-01-22-12-13-28.jpg"
                   alt="
                 Bergamo.
               "
                   data-src="/assets/portfolio/img/fulls/2017-01-22-12-13-28.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=45.69489166666666,9.669961111111112"
                        target="_blank"
                        class="geo-link">
@@ -410,14 +422,15 @@
 
               <li data-date="
                 2017-01-22 12:13:33 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-01-22-12-13-33.jpg"
                   alt="
                 Bergamo.
               "
                   data-src="/assets/portfolio/img/fulls/2017-01-22-12-13-33.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=45.69489166666666,9.669961111111112"
                        target="_blank"
                        class="geo-link">
@@ -449,14 +462,15 @@
 
               <li data-date="
                 2017-01-25 12:31:30 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-01-25-12-31-30.jpg"
                   alt="
                 Dani and Jenna visiting Milan on their Eurotrip.
               "
                   data-src="/assets/portfolio/img/fulls/2017-01-25-12-31-30.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=45.46361944444445,9.18811388888889"
                        target="_blank"
                        class="geo-link">
@@ -486,12 +500,13 @@
 
               <li data-date="
                 2017-01-25 22:04:28 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images highlight">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-01-25-22-04-28.jpg"
                   alt="We went to the opera house for a symphony (and did crosswords on my phone)."
                   data-src="/assets/portfolio/img/fulls/2017-01-25-22-04-28.jpg"
-                  class="lazyload blur-up highlight" />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=45.467486111111114,9.189469444444443"
                        target="_blank"
                        class="geo-link">
@@ -523,12 +538,13 @@
 
               <li data-date="
                 2017-01-29 14:07:51 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images highlight">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-01-29-14-07-51.jpg"
                   alt="Ski trip to the alps, right on the Italy/France border."
                   data-src="/assets/portfolio/img/fulls/2017-01-29-14-07-51.jpg"
-                  class="lazyload blur-up highlight" />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=45.716744444444444,6.948825"
                        target="_blank"
                        class="geo-link">
@@ -556,14 +572,15 @@
 
               <li data-date="
                 2017-01-29 14:33:51 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-01-29-14-33-51.jpg"
                   alt="
                 Selfie!
               "
                   data-src="/assets/portfolio/img/fulls/2017-01-29-14-33-51.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=45.716744444444444,6.948825"
                        target="_blank"
                        class="geo-link">
@@ -595,14 +612,15 @@
 
               <li data-date="
                 2017-02-04 01:22:16 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-02-04-01-22-16.jpg"
                   alt="
                 &quot;Look serious.&quot;
               "
                   data-src="/assets/portfolio/img/fulls/2017-02-04-01-22-16.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=45.46361944444445,9.18811388888889"
                        target="_blank"
                        class="geo-link">
@@ -634,14 +652,15 @@
 
               <li data-date="
                 2017-02-10 10:50:59 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-02-10-10-50-59.jpg"
                   alt="
                 Dublin.
               "
                   data-src="/assets/portfolio/img/fulls/2017-02-10-10-50-59.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=53.344094444444444,-6.267486111111111"
                        target="_blank"
                        class="geo-link">
@@ -675,14 +694,15 @@
 
               <li data-date="
                 2017-02-10 11:18:28 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-02-10-11-18-28.jpg"
                   alt="
                 Breakfast in Dublin with Sophie and Melissa.
               "
                   data-src="/assets/portfolio/img/fulls/2017-02-10-11-18-28.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=53.344125,-6.268711111111111"
                        target="_blank"
                        class="geo-link">
@@ -714,12 +734,13 @@
 
               <li data-date="
                 2017-02-10 12:41:19 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images highlight">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-02-10-12-41-19.jpg"
                   alt="Dublin."
                   data-src="/assets/portfolio/img/fulls/2017-02-10-12-41-19.jpg"
-                  class="lazyload blur-up highlight" />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=53.344094444444444,-6.267486111111111"
                        target="_blank"
                        class="geo-link">
@@ -747,14 +768,15 @@
 
               <li data-date="
                 2017-02-10 12:47:56 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-02-10-12-47-56.jpg"
                   alt="
                 Dublin.
               "
                   data-src="/assets/portfolio/img/fulls/2017-02-10-12-47-56.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=53.344094444444444,-6.267486111111111"
                        target="_blank"
                        class="geo-link">
@@ -786,14 +808,15 @@
 
               <li data-date="
                 2017-02-10 13:38:27 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-02-10-13-38-27.jpg"
                   alt="
                 I&#39;m always making new friends.
               "
                   data-src="/assets/portfolio/img/fulls/2017-02-10-13-38-27.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=53.33934444444445,-6.260233333333334"
                        target="_blank"
                        class="geo-link">
@@ -827,14 +850,15 @@
 
               <li data-date="
                 2017-02-10 14:41:08 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-02-10-14-41-08.jpg"
                   alt="
                 Trying Guinness for the first time!
               "
                   data-src="/assets/portfolio/img/fulls/2017-02-10-14-41-08.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=53.34108333333333,-6.259533333333334"
                        target="_blank"
                        class="geo-link">
@@ -866,14 +890,15 @@
 
               <li data-date="
                 2017-02-10 14:58:28 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-02-10-14-58-28.jpg"
                   alt="
                 Dublin.
               "
                   data-src="/assets/portfolio/img/fulls/2017-02-10-14-58-28.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=53.341011111111115,-6.259536111111111"
                        target="_blank"
                        class="geo-link">
@@ -903,14 +928,15 @@
 
               <li data-date="
                 2017-02-10 16:25:47 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-02-10-16-25-47.jpg"
                   alt="
                 Dublin.
               "
                   data-src="/assets/portfolio/img/fulls/2017-02-10-16-25-47.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=53.34439444444445,-6.257822222222222"
                        target="_blank"
                        class="geo-link">
@@ -942,14 +968,15 @@
 
               <li data-date="
                 2017-02-11 16:36:51 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-02-11-16-36-51.jpg"
                   alt="
                 Howth, a bit North of Dublin. It can get a little windy.
               "
                   data-src="/assets/portfolio/img/fulls/2017-02-11-16-36-51.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=53.38414722222222,-6.063655555555555"
                        target="_blank"
                        class="geo-link">
@@ -983,14 +1010,15 @@
 
               <li data-date="
                 2017-02-14 00:33:03 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-02-14-00-33-03.jpg"
                   alt="
                 This is me asking the DJ to play Blink-182. He said &quot;please get off my stage.&quot;
               "
                   data-src="/assets/portfolio/img/fulls/2017-02-14-00-33-03.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=45.46259444444444,9.190155555555554"
                        target="_blank"
                        class="geo-link">
@@ -1022,14 +1050,15 @@
 
               <li data-date="
                 2017-02-14 14:18:14 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-02-14-14-18-14.jpg"
                   alt="
                 Nikki visiting MIlan!
               "
                   data-src="/assets/portfolio/img/fulls/2017-02-14-14-18-14.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=45.46361944444445,9.18811388888889"
                        target="_blank"
                        class="geo-link">
@@ -1059,14 +1088,15 @@
 
               <li data-date="
                 2017-02-14 16:38:34 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-02-14-16-38-34.jpg"
                   alt="
                 Il Duomo.
               "
                   data-src="/assets/portfolio/img/fulls/2017-02-14-16-38-34.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=45.46361944444445,9.18811388888889"
                        target="_blank"
                        class="geo-link">
@@ -1100,14 +1130,15 @@
 
               <li data-date="
                 2017-02-14 16:42:23 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-02-14-16-42-23.jpg"
                   alt="
                 La Galleria Vittorio Emanuele II: 140 year old shopping mall in Milan.
               "
                   data-src="/assets/portfolio/img/fulls/2017-02-14-16-42-23.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=45.46361944444445,9.18811388888889"
                        target="_blank"
                        class="geo-link">
@@ -1137,14 +1168,15 @@
 
               <li data-date="
                 2017-02-14 16:47:10 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-02-14-16-47-10.jpg"
                   alt="
                 It&#39;s good luck to spin on your heel on this bull in the center of the Galleria.
               "
                   data-src="/assets/portfolio/img/fulls/2017-02-14-16-47-10.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=45.46361944444445,9.18811388888889"
                        target="_blank"
                        class="geo-link">
@@ -1176,14 +1208,15 @@
 
               <li data-date="
                 2017-02-14 17:18:28 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-02-14-17-18-28.jpg"
                   alt="
                 What&#39;s a trip to Italy without some gelato?
               "
                   data-src="/assets/portfolio/img/fulls/2017-02-14-17-18-28.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=45.46361944444445,9.18811388888889"
                        target="_blank"
                        class="geo-link">
@@ -1217,14 +1250,15 @@
 
               <li data-date="
                 2017-02-14 17:19:41 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-02-14-17-19-41.jpg"
                   alt="
                 Milan.
               "
                   data-src="/assets/portfolio/img/fulls/2017-02-14-17-19-41.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=45.46361944444445,9.18811388888889"
                        target="_blank"
                        class="geo-link">
@@ -1256,14 +1290,15 @@
 
               <li data-date="
                 2017-02-14 17:30:19 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-02-14-17-30-19.jpg"
                   alt="
                 Milan.
               "
                   data-src="/assets/portfolio/img/fulls/2017-02-14-17-30-19.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=45.46361944444445,9.18811388888889"
                        target="_blank"
                        class="geo-link">
@@ -1293,14 +1328,15 @@
 
               <li data-date="
                 2017-02-14 17:30:22 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-02-14-17-30-22.jpg"
                   alt="
                 Milan.
               "
                   data-src="/assets/portfolio/img/fulls/2017-02-14-17-30-22.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=45.46369444444444,9.183591666666667"
                        target="_blank"
                        class="geo-link">
@@ -1334,14 +1370,15 @@
 
               <li data-date="
                 2017-02-15 13:56:35 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-02-15-13-56-35.jpg"
                   alt="
                 Nikki scaring some pigeons (or as she calls them, &quot;rats of the sky&quot;).
               "
                   data-src="/assets/portfolio/img/fulls/2017-02-15-13-56-35.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=45.46361944444445,9.18811388888889"
                        target="_blank"
                        class="geo-link">
@@ -1371,14 +1408,15 @@
 
               <li data-date="
                 2017-02-15 14:53:18 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-02-15-14-53-18.jpg"
                   alt="
                 La Galleria, Milan.
               "
                   data-src="/assets/portfolio/img/fulls/2017-02-15-14-53-18.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=45.46361944444445,9.18811388888889"
                        target="_blank"
                        class="geo-link">
@@ -1412,14 +1450,15 @@
 
               <li data-date="
                 2017-02-16 13:49:08 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-02-16-13-49-08.jpg"
                   alt="
                 Lunch at Sapuri, my favorite pizza place.
               "
                   data-src="/assets/portfolio/img/fulls/2017-02-16-13-49-08.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=45.46047222222222,9.175047222222222"
                        target="_blank"
                        class="geo-link">
@@ -1449,14 +1488,15 @@
 
               <li data-date="
                 2017-02-17 15:20:43 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-02-17-15-20-43.jpg"
                   alt="
                 Amsterdam.
               "
                   data-src="/assets/portfolio/img/fulls/2017-02-17-15-20-43.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=52.369102777777776,4.892438888888889"
                        target="_blank"
                        class="geo-link">
@@ -1490,14 +1530,15 @@
 
               <li data-date="
                 2017-02-17 15:33:08 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-02-17-15-33-08.jpg"
                   alt="
                 Crepes in Amsterdam.
               "
                   data-src="/assets/portfolio/img/fulls/2017-02-17-15-33-08.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=52.36915833333333,4.892413888888888"
                        target="_blank"
                        class="geo-link">
@@ -1529,12 +1570,13 @@
 
               <li data-date="
                 2017-02-17 16:16:48 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images highlight">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-02-17-16-16-48.jpg"
                   alt="Amsterdam."
                   data-src="/assets/portfolio/img/fulls/2017-02-17-16-16-48.jpg"
-                  class="lazyload blur-up highlight" />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=52.367511111111114,4.893797222222222"
                        target="_blank"
                        class="geo-link">
@@ -1564,14 +1606,15 @@
 
               <li data-date="
                 2017-02-17 17:30:34 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-02-17-17-30-34.jpg"
                   alt="
                 The peak of athleticism.
               "
                   data-src="/assets/portfolio/img/fulls/2017-02-17-17-30-34.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=52.35906666666667,4.884202777777778"
                        target="_blank"
                        class="geo-link">
@@ -1603,14 +1646,15 @@
 
               <li data-date="
                 2017-02-17 17:32:15 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-02-17-17-32-15.jpg"
                   alt="
                 Amsterdam.
               "
                   data-src="/assets/portfolio/img/fulls/2017-02-17-17-32-15.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=52.35900833333333,4.884194444444444"
                        target="_blank"
                        class="geo-link">
@@ -1642,14 +1686,15 @@
 
               <li data-date="
                 2017-02-17 17:35:10 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-02-17-17-35-10.jpg"
                   alt="
                 Amsterdam.
               "
                   data-src="/assets/portfolio/img/fulls/2017-02-17-17-35-10.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=52.35905555555556,4.884186111111111"
                        target="_blank"
                        class="geo-link">
@@ -1681,14 +1726,15 @@
 
               <li data-date="
                 2017-02-17 17:38:12 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-02-17-17-38-12.jpg"
                   alt="
                 Amsterdam.
               "
                   data-src="/assets/portfolio/img/fulls/2017-02-17-17-38-12.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=52.35910833333334,4.884152777777778"
                        target="_blank"
                        class="geo-link">
@@ -1718,14 +1764,15 @@
 
               <li data-date="
                 2017-02-17 21:01:31 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-02-17-21-01-31.jpg"
                   alt="
                 Waiting for the Chainsmokers.
               "
                   data-src="/assets/portfolio/img/fulls/2017-02-17-21-01-31.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=52.31219166666667,4.944158333333334"
                        target="_blank"
                        class="geo-link">
@@ -1759,14 +1806,15 @@
 
               <li data-date="
                 2017-02-17 21:25:10 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-02-17-21-25-10.jpg"
                   alt="
                 Chainsmokers were fantastic.
               "
                   data-src="/assets/portfolio/img/fulls/2017-02-17-21-25-10.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=52.31216111111111,4.9441749999999995"
                        target="_blank"
                        class="geo-link">
@@ -1798,14 +1846,15 @@
 
               <li data-date="
                 2017-02-18 00:27:54 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-02-18-00-27-54.jpg"
                   alt="
                 Canal in Amsterdam.
               "
                   data-src="/assets/portfolio/img/fulls/2017-02-18-00-27-54.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=52.373525,4.897872222222222"
                        target="_blank"
                        class="geo-link">
@@ -1835,14 +1884,15 @@
 
               <li data-date="
                 2017-02-18 15:52:53 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-02-18-15-52-53.jpg"
                   alt="
                 Amsterdam.
               "
                   data-src="/assets/portfolio/img/fulls/2017-02-18-15-52-53.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=52.37316666666666,4.890661111111111"
                        target="_blank"
                        class="geo-link">
@@ -1874,14 +1924,15 @@
 
               <li data-date="
                 2017-02-18 18:30:29 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-02-18-18-30-29.jpg"
                   alt="
                 Amsterdam.
               "
                   data-src="/assets/portfolio/img/fulls/2017-02-18-18-30-29.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=52.37316666666666,4.890661111111111"
                        target="_blank"
                        class="geo-link">
@@ -1913,12 +1964,13 @@
 
               <li data-date="
                 2017-02-18 18:30:52 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images highlight">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-02-18-18-30-52.jpg"
                   alt="Amsterdam canal."
                   data-src="/assets/portfolio/img/fulls/2017-02-18-18-30-52.jpg"
-                  class="lazyload blur-up highlight" />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=52.37316666666666,4.890661111111111"
                        target="_blank"
                        class="geo-link">
@@ -1950,14 +2002,15 @@
 
               <li data-date="
                 2017-02-19 15:16:13 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-02-19-15-16-13.jpg"
                   alt="
                 I just had to capture the aburdity of the Dutch language.
               "
                   data-src="/assets/portfolio/img/fulls/2017-02-19-15-16-13.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=52.37316666666666,4.890661111111111"
                        target="_blank"
                        class="geo-link">
@@ -1989,14 +2042,15 @@
 
               <li data-date="
                 2017-02-19 15:54:30 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-02-19-15-54-30.jpg"
                   alt="
                 Amsterdam.
               "
                   data-src="/assets/portfolio/img/fulls/2017-02-19-15-54-30.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=52.37316666666666,4.890661111111111"
                        target="_blank"
                        class="geo-link">
@@ -2028,12 +2082,13 @@
 
               <li data-date="
                 2017-02-19 17:28:47 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images highlight">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-02-19-17-28-47.jpg"
                   alt="At the Amsterdam airport."
                   data-src="/assets/portfolio/img/fulls/2017-02-19-17-28-47.jpg"
-                  class="lazyload blur-up highlight" />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=52.37316666666666,4.890661111111111"
                        target="_blank"
                        class="geo-link">
@@ -2061,14 +2116,15 @@
 
               <li data-date="
                 2017-02-20 15:20:29 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-02-20-15-20-29.jpg"
                   alt="
                 Aand back in Amsterdam because I missed my flight.
               "
                   data-src="/assets/portfolio/img/fulls/2017-02-20-15-20-29.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=52.37316666666666,4.890661111111111"
                        target="_blank"
                        class="geo-link">
@@ -2100,14 +2156,15 @@
 
               <li data-date="
                 2017-02-26 21:54:53 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-02-26-21-54-53.jpg"
                   alt="
                 Trying to get into a catwalk during Milan Fashion Week. (We failed).
               "
                   data-src="/assets/portfolio/img/fulls/2017-02-26-21-54-53.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=45.46361944444445,9.18811388888889"
                        target="_blank"
                        class="geo-link">
@@ -2139,14 +2196,15 @@
 
               <li data-date="
                 2017-03-01 19:57:12 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-03-01-19-57-12.jpg"
                   alt="
                 Went to the ballet at the opera house.
               "
                   data-src="/assets/portfolio/img/fulls/2017-03-01-19-57-12.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=45.467486111111114,9.189469444444443"
                        target="_blank"
                        class="geo-link">
@@ -2178,14 +2236,15 @@
 
               <li data-date="
                 2017-03-01 22:46:20 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-03-01-22-46-20.jpg"
                   alt="
                 That sign means &quot;We are sorry for the inconvenience. We are working for you. Thank you.&quot;
               "
                   data-src="/assets/portfolio/img/fulls/2017-03-01-22-46-20.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=45.45923611111111,9.177347222222222"
                        target="_blank"
                        class="geo-link">
@@ -2219,14 +2278,15 @@
 
               <li data-date="
                 2017-03-03 10:08:15 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-03-03-10-08-15.jpg"
                   alt="
                 Somewhere between Athens and Delphi.
               "
                   data-src="/assets/portfolio/img/fulls/2017-03-03-10-08-15.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=38.48229722222222,22.501280555555557"
                        target="_blank"
                        class="geo-link">
@@ -2258,14 +2318,15 @@
 
               <li data-date="
                 2017-03-03 11:46:07 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-03-03-11-46-07.jpg"
                   alt="
                 Delphi.
               "
                   data-src="/assets/portfolio/img/fulls/2017-03-03-11-46-07.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=38.48229722222222,22.501280555555557"
                        target="_blank"
                        class="geo-link">
@@ -2297,14 +2358,15 @@
 
               <li data-date="
                 2017-03-03 11:49:48 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-03-03-11-49-48.jpg"
                   alt="
                 Delphi.
               "
                   data-src="/assets/portfolio/img/fulls/2017-03-03-11-49-48.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=38.48229722222222,22.501280555555557"
                        target="_blank"
                        class="geo-link">
@@ -2334,14 +2396,15 @@
 
               <li data-date="
                 2017-03-03 12:19:07 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-03-03-12-19-07.jpg"
                   alt="
                 Treasury of the Athenians in Delphi.
               "
                   data-src="/assets/portfolio/img/fulls/2017-03-03-12-19-07.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=38.48229722222222,22.501280555555557"
                        target="_blank"
                        class="geo-link">
@@ -2375,14 +2438,15 @@
 
               <li data-date="
                 2017-03-03 13:30:35 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-03-03-13-30-35.jpg"
                   alt="
                 Delphi.
               "
                   data-src="/assets/portfolio/img/fulls/2017-03-03-13-30-35.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=38.48229722222222,22.501280555555557"
                        target="_blank"
                        class="geo-link">
@@ -2412,14 +2476,15 @@
 
               <li data-date="
                 2017-03-03 14:10:03 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-03-03-14-10-03.jpg"
                   alt="
                 View from lunch in Delphi. (I had rabbit stew.)
               "
                   data-src="/assets/portfolio/img/fulls/2017-03-03-14-10-03.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=38.48229722222222,22.501280555555557"
                        target="_blank"
                        class="geo-link">
@@ -2451,14 +2516,15 @@
 
               <li data-date="
                 2017-03-03 20:46:20 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-03-03-20-46-20.jpg"
                   alt="
                 Acropolis at night.
               "
                   data-src="/assets/portfolio/img/fulls/2017-03-03-20-46-20.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=37.983333333333334,23.733333333333334"
                        target="_blank"
                        class="geo-link">
@@ -2490,14 +2556,15 @@
 
               <li data-date="
                 2017-03-04 06:07:47 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-03-04-06-07-47.jpg"
                   alt="
                 I woke up at 5:30am on Saturday morning to climb Mount Lycabettus, the tallest point in Athens, and catch the sunrise.
               "
                   data-src="/assets/portfolio/img/fulls/2017-03-04-06-07-47.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=37.982086111111116,23.74326388888889"
                        target="_blank"
                        class="geo-link">
@@ -2529,14 +2596,15 @@
 
               <li data-date="
                 2017-03-04 06:13:09 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-03-04-06-13-09.jpg"
                   alt="
                 And there&#39;s the sun!
               "
                   data-src="/assets/portfolio/img/fulls/2017-03-04-06-13-09.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=37.982086111111116,23.74326388888889"
                        target="_blank"
                        class="geo-link">
@@ -2570,12 +2638,13 @@
 
               <li data-date="
                 2017-03-04 06:35:24 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images highlight">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-03-04-06-35-24.jpg"
                   alt="Views from Mount Lycabettus."
                   data-src="/assets/portfolio/img/fulls/2017-03-04-06-35-24.jpg"
-                  class="lazyload blur-up highlight" />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=37.982086111111116,23.74326388888889"
                        target="_blank"
                        class="geo-link">
@@ -2605,14 +2674,15 @@
 
               <li data-date="
                 2017-03-04 06:38:24 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-03-04-06-38-24.jpg"
                   alt="
                 The Parthenon (taken at Mount Lycabettus).
               "
                   data-src="/assets/portfolio/img/fulls/2017-03-04-06-38-24.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=37.982086111111116,23.74326388888889"
                        target="_blank"
                        class="geo-link">
@@ -2644,14 +2714,15 @@
 
               <li data-date="
                 2017-03-04 06:45:46 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-03-04-06-45-46.jpg"
                   alt="
                 These caterpillars travel in a line so they don&#39;t lose each other. (At least that&#39;s what I think is going on).
               "
                   data-src="/assets/portfolio/img/fulls/2017-03-04-06-45-46.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=37.982086111111116,23.74326388888889"
                        target="_blank"
                        class="geo-link">
@@ -2681,14 +2752,15 @@
 
               <li data-date="
                 2017-03-04 10:35:24 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-03-04-10-35-24.jpg"
                   alt="
                 Athens.
               "
                   data-src="/assets/portfolio/img/fulls/2017-03-04-10-35-24.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=37.971555555555554,23.72668888888889"
                        target="_blank"
                        class="geo-link">
@@ -2722,14 +2794,15 @@
 
               <li data-date="
                 2017-03-04 10:56:37 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-03-04-10-56-37.jpg"
                   alt="
                 Athens.
               "
                   data-src="/assets/portfolio/img/fulls/2017-03-04-10-56-37.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=37.971555555555554,23.72668888888889"
                        target="_blank"
                        class="geo-link">
@@ -2761,14 +2834,15 @@
 
               <li data-date="
                 2017-03-04 11:05:33 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-03-04-11-05-33.jpg"
                   alt="
                 Athens.
               "
                   data-src="/assets/portfolio/img/fulls/2017-03-04-11-05-33.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=37.971555555555554,23.72668888888889"
                        target="_blank"
                        class="geo-link">
@@ -2800,14 +2874,15 @@
 
               <li data-date="
                 2017-03-04 11:13:04 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-03-04-11-13-04.jpg"
                   alt="
                 Me at the Parthenon.
               "
                   data-src="/assets/portfolio/img/fulls/2017-03-04-11-13-04.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=37.971555555555554,23.72668888888889"
                        target="_blank"
                        class="geo-link">
@@ -2837,14 +2912,15 @@
 
               <li data-date="
                 2017-03-04 11:15:39 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-03-04-11-15-39.jpg"
                   alt="
                 Athens.
               "
                   data-src="/assets/portfolio/img/fulls/2017-03-04-11-15-39.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=37.971555555555554,23.72668888888889"
                        target="_blank"
                        class="geo-link">
@@ -2878,12 +2954,13 @@
 
               <li data-date="
                 2017-03-04 11:17:31 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images highlight">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-03-04-11-17-31.jpg"
                   alt="At the Acropolis."
                   data-src="/assets/portfolio/img/fulls/2017-03-04-11-17-31.jpg"
-                  class="lazyload blur-up highlight" />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=37.971555555555554,23.72668888888889"
                        target="_blank"
                        class="geo-link">
@@ -2911,14 +2988,15 @@
 
               <li data-date="
                 2017-03-04 12:09:09 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-03-04-12-09-09.jpg"
                   alt="
                 This is the setup of a group of 3 people (and a dog) that travels around the world on their motorcycles. They&#39;ve been to 133 countries and counting, and it&#39;s entirely financed by selling jewelry that they make at stands like this. Here&#39;s the website if you&#39;re interested: http://www.porsiemprelamoto.com/.
               "
                   data-src="/assets/portfolio/img/fulls/2017-03-04-12-09-09.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=37.983333333333334,23.733333333333334"
                        target="_blank"
                        class="geo-link">
@@ -2952,14 +3030,15 @@
 
               <li data-date="
                 2017-03-04 13:11:25 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-03-04-13-11-25.jpg"
                   alt="
                 Athens.
               "
                   data-src="/assets/portfolio/img/fulls/2017-03-04-13-11-25.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=37.97427777777778,23.72638333333333"
                        target="_blank"
                        class="geo-link">
@@ -2989,14 +3068,15 @@
 
               <li data-date="
                 2017-03-04 13:16:33 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-03-04-13-16-33.jpg"
                   alt="
                 Athens.
               "
                   data-src="/assets/portfolio/img/fulls/2017-03-04-13-16-33.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=37.97427777777778,23.726380555555554"
                        target="_blank"
                        class="geo-link">
@@ -3030,14 +3110,15 @@
 
               <li data-date="
                 2017-03-04 13:44:40 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-03-04-13-44-40.jpg"
                   alt="
                 Athens.
               "
                   data-src="/assets/portfolio/img/fulls/2017-03-04-13-44-40.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=37.97427777777778,23.726380555555554"
                        target="_blank"
                        class="geo-link">
@@ -3067,12 +3148,13 @@
 
               <li data-date="
                 2017-03-07 01:35:11 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images highlight">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-03-07-01-35-11.jpg"
                   alt="My 21st birthday!"
                   data-src="/assets/portfolio/img/fulls/2017-03-07-01-35-11.jpg"
-                  class="lazyload blur-up highlight" />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=45.46259444444444,9.190497222222222"
                        target="_blank"
                        class="geo-link">
@@ -3102,14 +3184,15 @@
 
               <li data-date="
                 2017-03-10 13:58:30 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-03-10-13-58-30.jpg"
                   alt="
                 Vienna.
               "
                   data-src="/assets/portfolio/img/fulls/2017-03-10-13-58-30.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=48.209205555555556,16.372777777777777"
                        target="_blank"
                        class="geo-link">
@@ -3141,12 +3224,13 @@
 
               <li data-date="
                 2017-03-11 12:20:58 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images highlight">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-03-11-12-20-58.jpg"
                   alt="Budapest."
                   data-src="/assets/portfolio/img/fulls/2017-03-11-12-20-58.jpg"
-                  class="lazyload blur-up highlight" />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=47.5,19.083333333333332"
                        target="_blank"
                        class="geo-link">
@@ -3176,14 +3260,15 @@
 
               <li data-date="
                 2017-03-11 12:55:55 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-03-11-12-55-55.jpg"
                   alt="
                 No shortage of views in Budapest.
               "
                   data-src="/assets/portfolio/img/fulls/2017-03-11-12-55-55.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=47.5,19.083333333333332"
                        target="_blank"
                        class="geo-link">
@@ -3215,14 +3300,15 @@
 
               <li data-date="
                 2017-03-11 13:13:52 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-03-11-13-13-52.jpg"
                   alt="
                 Budapest.
               "
                   data-src="/assets/portfolio/img/fulls/2017-03-11-13-13-52.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=47.5,19.083333333333332"
                        target="_blank"
                        class="geo-link">
@@ -3254,14 +3340,15 @@
 
               <li data-date="
                 2017-03-12 12:44:00 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-03-12-12-44-00.jpg"
                   alt="
                 Met up with Kasey in Budapest.
               "
                   data-src="/assets/portfolio/img/fulls/2017-03-12-12-44-00.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=47.49570555555556,19.05180833333333"
                        target="_blank"
                        class="geo-link">
@@ -3295,14 +3382,15 @@
 
               <li data-date="
                 2017-03-18 19:34:06 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-03-18-19-34-06.jpg"
                   alt="
                 Madrid!
               "
                   data-src="/assets/portfolio/img/fulls/2017-03-18-19-34-06.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=40.415147222222224,-3.684302777777778"
                        target="_blank"
                        class="geo-link">
@@ -3334,14 +3422,15 @@
 
               <li data-date="
                 2017-03-19 17:12:51 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-03-19-17-12-51.jpg"
                   alt="
                 No idea where this is, but somewhere between Madrid to Milan.
               "
                   data-src="/assets/portfolio/img/fulls/2017-03-19-17-12-51.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=44.65685277777778,6.960344444444445"
                        target="_blank"
                        class="geo-link">
@@ -3373,14 +3462,15 @@
 
               <li data-date="
                 2017-03-19 18:58:01 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-03-19-18-58-01.jpg"
                   alt="
                 View from the roof of my apartment building.
               "
                   data-src="/assets/portfolio/img/fulls/2017-03-19-18-58-01.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=45.45923611111111,9.177347222222222"
                        target="_blank"
                        class="geo-link">
@@ -3410,14 +3500,15 @@
 
               <li data-date="
                 2017-03-24 13:21:51 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-03-24-13-21-51.jpg"
                   alt="
                 Bygdøy, a Norwegian peninsula near Oslo.
               "
                   data-src="/assets/portfolio/img/fulls/2017-03-24-13-21-51.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=59.90323055555556,10.699602777777777"
                        target="_blank"
                        class="geo-link">
@@ -3451,14 +3542,15 @@
 
               <li data-date="
                 2017-03-25 17:26:59 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-03-25-17-26-59.jpg"
                   alt="
                 Bergen, a smaller town in Western Norway (population: ~300k). I went here between Oslo and Tromsø to see the famed Norwegian fjords.
               "
                   data-src="/assets/portfolio/img/fulls/2017-03-25-17-26-59.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=60.38806944444444,5.331852777777777"
                        target="_blank"
                        class="geo-link">
@@ -3488,14 +3580,15 @@
 
               <li data-date="
                 2017-03-25 17:32:28 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-03-25-17-32-28.jpg"
                   alt="
                 Bergen, Norway. Reindeer hot dog!
               "
                   data-src="/assets/portfolio/img/fulls/2017-03-25-17-32-28.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=60.38806944444444,5.331852777777777"
                        target="_blank"
                        class="geo-link">
@@ -3529,14 +3622,15 @@
 
               <li data-date="
                 2017-03-25 17:43:05 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-03-25-17-43-05.jpg"
                   alt="
                 Bergen, Norway.
               "
                   data-src="/assets/portfolio/img/fulls/2017-03-25-17-43-05.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=60.38806944444444,5.331852777777777"
                        target="_blank"
                        class="geo-link">
@@ -3568,14 +3662,15 @@
 
               <li data-date="
                 2017-03-25 20:57:22 +0100
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-03-25-20-57-22.jpg"
                   alt="
                 Bergen, Norway. There&#39;s a nice little harbor with lots of restuarants that&#39;s great to walk around.
               "
                   data-src="/assets/portfolio/img/fulls/2017-03-25-20-57-22.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=60.38806944444444,5.331852777777777"
                        target="_blank"
                        class="geo-link">
@@ -3607,14 +3702,15 @@
 
               <li data-date="
                 2017-03-26 11:10:41 +0200
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-03-26-11-10-41.jpg"
                   alt="
                 Bakery in Flåm, Norway (population: 400).
               "
                   data-src="/assets/portfolio/img/fulls/2017-03-26-11-10-41.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=60.85245277777778,7.1136083333333335"
                        target="_blank"
                        class="geo-link">
@@ -3644,14 +3740,15 @@
 
               <li data-date="
                 2017-03-26 11:14:41 +0200
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-03-26-11-14-41.jpg"
                   alt="
                 Flåm, Norway.
               "
                   data-src="/assets/portfolio/img/fulls/2017-03-26-11-14-41.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=60.85245277777778,7.1136083333333335"
                        target="_blank"
                        class="geo-link">
@@ -3683,14 +3780,15 @@
 
               <li data-date="
                 2017-03-26 16:31:12 +0200
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-03-26-16-31-12.jpg"
                   alt="
                 Enjoying the Aurlandsfjord.
               "
                   data-src="/assets/portfolio/img/fulls/2017-03-26-16-31-12.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=60.85245277777778,7.1136083333333335"
                        target="_blank"
                        class="geo-link">
@@ -3722,14 +3820,15 @@
 
               <li data-date="
                 2017-03-26 16:50:14 +0200
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-03-26-16-50-14.jpg"
                   alt="
                 Aurlandsfjord.
               "
                   data-src="/assets/portfolio/img/fulls/2017-03-26-16-50-14.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=60.85245277777778,7.1136083333333335"
                        target="_blank"
                        class="geo-link">
@@ -3761,14 +3860,15 @@
 
               <li data-date="
                 2017-03-27 16:57:06 +0200
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-03-27-16-57-06.jpg"
                   alt="
                 I flew to Tromsø, a city so North in Norway that it&#39;s in the Artctic circle.
               "
                   data-src="/assets/portfolio/img/fulls/2017-03-27-16-57-06.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=69.652075,18.959466666666668"
                        target="_blank"
                        class="geo-link">
@@ -3800,14 +3900,15 @@
 
               <li data-date="
                 2017-03-27 22:44:10 +0200
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-03-27-22-44-10.jpg"
                   alt="
                 Late dinner (cod soup) on our search for the Northern Lights. We drove across the border to Finland since it was cloudy in Tromsø.
               "
                   data-src="/assets/portfolio/img/fulls/2017-03-27-22-44-10.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=68.92508055555555,20.93401111111111"
                        target="_blank"
                        class="geo-link">
@@ -3839,14 +3940,15 @@
 
               <li data-date="
                 2017-03-27 23:46:05 +0200
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-03-27-23-46-05.jpg"
                   alt="
                 And we found them! &lt;a target=&quot;_blank&quot; href=&quot;https://www.instagram.com/p/BSLvOsLFoikWFhG5maG2YBcLpeNpqWGg8p6FDE0/?taken-by=zachykirsch&quot;&gt;Here&#39;s a video.&lt;/a&gt;
               "
                   data-src="/assets/portfolio/img/fulls/2017-03-27-23-46-05.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=69.08981666666666,20.756611111111113"
                        target="_blank"
                        class="geo-link">
@@ -3880,14 +3982,15 @@
 
               <li data-date="
                 2017-03-28 00:05:29 +0200
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-03-28-00-05-29.jpg"
                   alt="
                 
               "
                   data-src="/assets/portfolio/img/fulls/2017-03-28-00-05-29.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=69.08981666666666,20.756611111111113"
                        target="_blank"
                        class="geo-link">
@@ -3917,14 +4020,15 @@
 
               <li data-date="
                 2017-03-28 00:07:38 +0200
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-03-28-00-07-38.jpg"
                   alt="
                 
               "
                   data-src="/assets/portfolio/img/fulls/2017-03-28-00-07-38.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=69.08981666666666,20.756611111111113"
                        target="_blank"
                        class="geo-link">
@@ -3958,14 +4062,15 @@
 
               <li data-date="
                 2017-03-28 00:07:43 +0200
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-03-28-00-07-43.jpg"
                   alt="
                 
               "
                   data-src="/assets/portfolio/img/fulls/2017-03-28-00-07-43.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=69.08981666666666,20.756611111111113"
                        target="_blank"
                        class="geo-link">
@@ -3995,14 +4100,15 @@
 
               <li data-date="
                 2017-03-28 00:14:59 +0200
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-03-28-00-14-59.jpg"
                   alt="
                 
               "
                   data-src="/assets/portfolio/img/fulls/2017-03-28-00-14-59.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=69.08981666666666,20.756611111111113"
                        target="_blank"
                        class="geo-link">
@@ -4034,14 +4140,15 @@
 
               <li data-date="
                 2017-03-28 00:15:35 +0200
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-03-28-00-15-35.jpg"
                   alt="
                 
               "
                   data-src="/assets/portfolio/img/fulls/2017-03-28-00-15-35.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=69.08981666666666,20.756611111111113"
                        target="_blank"
                        class="geo-link">
@@ -4073,14 +4180,15 @@
 
               <li data-date="
                 2017-03-28 00:18:25 +0200
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-03-28-00-18-25.jpg"
                   alt="
                 
               "
                   data-src="/assets/portfolio/img/fulls/2017-03-28-00-18-25.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=69.08981666666666,20.756611111111113"
                        target="_blank"
                        class="geo-link">
@@ -4114,14 +4222,15 @@
 
               <li data-date="
                 2017-03-28 00:26:38 +0200
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-03-28-00-26-38.jpg"
                   alt="
                 
               "
                   data-src="/assets/portfolio/img/fulls/2017-03-28-00-26-38.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=69.08981666666666,20.756611111111113"
                        target="_blank"
                        class="geo-link">
@@ -4153,14 +4262,15 @@
 
               <li data-date="
                 2017-03-28 00:28:56 +0200
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-03-28-00-28-56.jpg"
                   alt="
                 
               "
                   data-src="/assets/portfolio/img/fulls/2017-03-28-00-28-56.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=69.08981666666666,20.756611111111113"
                        target="_blank"
                        class="geo-link">
@@ -4192,14 +4302,15 @@
 
               <li data-date="
                 2017-03-28 00:29:59 +0200
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-03-28-00-29-59.jpg"
                   alt="
                 
               "
                   data-src="/assets/portfolio/img/fulls/2017-03-28-00-29-59.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=69.08981666666666,20.756611111111113"
                        target="_blank"
                        class="geo-link">
@@ -4231,14 +4342,15 @@
 
               <li data-date="
                 2017-03-28 00:32:47 +0200
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-03-28-00-32-47.jpg"
                   alt="
                 
               "
                   data-src="/assets/portfolio/img/fulls/2017-03-28-00-32-47.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=69.08981666666666,20.756611111111113"
                        target="_blank"
                        class="geo-link">
@@ -4268,14 +4380,15 @@
 
               <li data-date="
                 2017-03-28 00:36:50 +0200
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-03-28-00-36-50.jpg"
                   alt="
                 
               "
                   data-src="/assets/portfolio/img/fulls/2017-03-28-00-36-50.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=69.08981666666666,20.756611111111113"
                        target="_blank"
                        class="geo-link">
@@ -4307,14 +4420,15 @@
 
               <li data-date="
                 2017-03-28 00:37:47 +0200
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-03-28-00-37-47.jpg"
                   alt="
                 
               "
                   data-src="/assets/portfolio/img/fulls/2017-03-28-00-37-47.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=69.08981666666666,20.756611111111113"
                        target="_blank"
                        class="geo-link">
@@ -4348,14 +4462,15 @@
 
               <li data-date="
                 2017-03-28 00:39:16 +0200
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-03-28-00-39-16.jpg"
                   alt="
                 
               "
                   data-src="/assets/portfolio/img/fulls/2017-03-28-00-39-16.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=69.08981666666666,20.756611111111113"
                        target="_blank"
                        class="geo-link">
@@ -4387,14 +4502,15 @@
 
               <li data-date="
                 2017-03-28 00:49:15 +0200
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-03-28-00-49-15.jpg"
                   alt="
                 
               "
                   data-src="/assets/portfolio/img/fulls/2017-03-28-00-49-15.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=69.08981666666666,20.756611111111113"
                        target="_blank"
                        class="geo-link">
@@ -4424,14 +4540,15 @@
 
               <li data-date="
                 2017-03-28 00:49:48 +0200
-              " class="wait-for-images">
+              "
+                  class="wait-for-images ">
                 <img
                   src="/assets/portfolio/img/thumbs/2017-03-28-00-49-48.jpg"
                   alt="
                 
               "
                   data-src="/assets/portfolio/img/fulls/2017-03-28-00-49-48.jpg"
-                  class="lazyload blur-up " />
+                  class="lazyload blur-up" />
                   <a href="https://www.google.com/maps?q=69.08981666666666,20.756611111111113"
                        target="_blank"
                        class="geo-link">
