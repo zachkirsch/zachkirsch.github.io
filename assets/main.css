@@ -515,7 +515,7 @@ pre {
   border-color: lightgray;
   padding: 1em; }
 #abroad-photos li.focused {
-  border-color: black; }
+  border-color: darkgray; }
 #abroad-photos p {
   margin-top: 1em; }
 #abroad-photos .wait-for-images {
