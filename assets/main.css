@@ -523,6 +523,15 @@ pre {
   /* start off hidden unless photos are slow to load */ }
 #abroad-photos #buttons div {
   display: inline-block; }
+#abroad-photos .geo-link {
+  text-decoration: none; }
+  #abroad-photos .geo-link .post-meta {
+    text-decoration: underline; }
+#abroad-photos .camera-info {
+  cursor: default; }
+
+.mfp-gallery .camera-info {
+  display: none; }
 
 .blur-up {
   -webkit-filter: blur(5px);
@@ -579,9 +588,3 @@ button {
 
 .nowrap {
   white-space: nowrap; }
-
-.geo-link .post-meta {
-  text-decoration: underline; }
-
-.geo-link {
-  text-decoration: none; }
