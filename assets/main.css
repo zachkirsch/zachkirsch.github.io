@@ -527,11 +527,6 @@ pre {
   text-decoration: none; }
   #abroad-photos .geo-link .post-meta {
     text-decoration: underline; }
-#abroad-photos .camera-info {
-  cursor: default; }
-
-.mfp-gallery .camera-info {
-  display: none; }
 
 .blur-up {
   -webkit-filter: blur(5px);
