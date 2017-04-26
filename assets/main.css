@@ -494,9 +494,6 @@ pre {
   margin-top: 3em; }
 #abroad-photos p.instructions {
   margin-top: 1em; }
-#abroad-photos .loading {
-  display: none;
-  /* start hidden unless photos take too long to load */ }
 #abroad-photos #photos {
   margin-top: 2em; }
 @media all and (max-width: 800px) {
