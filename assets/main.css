@@ -577,3 +577,6 @@ button {
 
 body {
   padding: 56px 0 0; }
+
+.clickable {
+  cursor: pointer; }
