@@ -1,10 +1,8 @@
 {
-  "main.css": "static/css/main.9f7271f2.css",
-  "main.css.map": "static/css/main.9f7271f2.css.map",
-  "main.js": "static/js/main.095a4f06.js",
-  "main.js.map": "static/js/main.095a4f06.js.map",
-  "static/media/atm.gif": "static/media/atm.79132a53.gif",
-  "static/media/atm.jpg": "static/media/atm.62e92206.jpg",
+  "main.css": "static/css/main.8878d2b5.css",
+  "main.css.map": "static/css/main.8878d2b5.css.map",
+  "main.js": "static/js/main.6482bfe0.js",
+  "main.js.map": "static/js/main.6482bfe0.js.map",
   "static/media/icons-16.eot": "static/media/icons-16.3e10f4b0.eot",
   "static/media/icons-16.ttf": "static/media/icons-16.38753f56.ttf",
   "static/media/icons-16.woff": "static/media/icons-16.6efc4df9.woff",
@@ -12,5 +10,6 @@
   "static/media/icons-20.ttf": "static/media/icons-20.8b09140b.ttf",
   "static/media/icons-20.woff": "static/media/icons-20.691aa379.woff",
   "static/media/logo.png": "static/media/logo.2cb2c97d.png",
-  "static/media/robot-slam-poetry.jpg": "static/media/robot-slam-poetry.294f76b6.jpg"
+  "static/media/robot-slam-poetry.jpg": "static/media/robot-slam-poetry.294f76b6.jpg",
+  "static/media/snake.gif": "static/media/snake.3c74aa04.gif"
 }
