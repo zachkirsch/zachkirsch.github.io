@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/marriott_matrix/precache-manifest.f02a9c5958f6bcc7f048b05a95f6b400.js"
+  "/marriott_matrix/precache-manifest.d5827b766db067544da64efb550371c2.js"
 );
 
 self.addEventListener('message', (event) => {

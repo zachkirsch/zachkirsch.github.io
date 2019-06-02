@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "239ea276f66fd11d31e3ffb8cb3a589e",
+    "revision": "36e842286c4d14ee1d8f21402b63c624",
     "url": "/marriott_matrix/index.html"
   },
   {
@@ -8,15 +8,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/marriott_matrix/static/css/2.57ab0dc7.chunk.css"
   },
   {
-    "revision": "d07727d60381d7c90790",
-    "url": "/marriott_matrix/static/css/main.b55ee787.chunk.css"
+    "revision": "5589f933208238676e62",
+    "url": "/marriott_matrix/static/css/main.576a3c5b.chunk.css"
   },
   {
     "revision": "3dc687296b102ffa516f",
     "url": "/marriott_matrix/static/js/2.fd96b9dd.chunk.js"
   },
   {
-    "revision": "d07727d60381d7c90790",
+    "revision": "5589f933208238676e62",
     "url": "/marriott_matrix/static/js/main.9b14d980.chunk.js"
   },
   {
